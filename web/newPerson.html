@@ -1,0 +1,12 @@
+<form class="col-md-4" style="margin-top: 10px;">
+    <h1>Create a new person</h1>
+  <div class="form-group">
+    <label for="name">Name</label>
+    <input type="text" class="form-control" id="name" ng-model="selectedPerson.name" placeholder="name">
+  </div>
+  <div class="form-group">
+    <label for="age">Age</label>
+    <input type="number" class="form-control" id="age" ng-model="selectedPerson.age" placeholder="Age">
+  </div>
+  <button class="btn btn-primary" type="submit" ng-click="addPerson()">Create a person</button>
+</form>
